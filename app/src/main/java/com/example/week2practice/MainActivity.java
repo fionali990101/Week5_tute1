@@ -1,7 +1,7 @@
 package com.example.week2practice;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
+import android.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //return super.onCreateOptionsMenu(menu);//// 与line83的区别
-        return true; 
+        return true;
     }
     public boolean onOptionsItemSelected(MenuItem item){
         switch(item.getItemId()){ //这个getItemId是代码本身不用改的

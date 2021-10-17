@@ -9,10 +9,11 @@
         android:id="@+id/totalCasesItem"
         android:title="Total Cases" />
 
-    <item android:id="@+id/action_search"
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
         android:title="Search"
-        android:icon="@drawable/ic_baseline_search_24"
-        app:showAsAction="always|collapseActionView"
-        app:actionViewClass="androidx.appcompat.widget.SearchView"
-        />
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
 </menu>
